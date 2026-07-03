@@ -1,5 +1,4 @@
-applications.db
-job_report.csv
-applications.db
+﻿Data/applications.db
+Reports/job_report.csv
 __pycache__/
 *.csv
