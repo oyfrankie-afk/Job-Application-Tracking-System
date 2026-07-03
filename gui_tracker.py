@@ -22,7 +22,7 @@ def is_safe_url(url):
 window = tk.Tk()
 selected_id = None
 database.create_database()
-window.title("Job Application Management System")
+window.title("Job Application Tracking System")
 
 window.geometry("1000x700")
 
@@ -30,7 +30,7 @@ window.geometry("1000x700")
 header_frame = tk.Frame(window)
 header_frame.pack(pady=20, fill="x", padx=20)
 
-title_label = tk.Label(header_frame, text="Job Application Tracker", font=("Arial", 16))
+title_label = tk.Label(header_frame, text="Job Application Tracking System", font=("Arial", 16))
 title_label.pack(side=tk.LEFT)
 
 # Jobs button to open job search
